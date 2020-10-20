@@ -1,10 +1,10 @@
 package com.vku.ktx.model;
 
 import java.util.Date;
-
 import javax.persistence.*;
 
 @Entity
+@Table(name = "user")   
 public class Register {
     
     @Id
